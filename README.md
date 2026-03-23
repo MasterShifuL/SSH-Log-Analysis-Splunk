@@ -123,22 +123,11 @@ index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 ![Ref 3.1 - Brute Force Result](screenshots/ref3_result.png)
 ```
 
-**2. Filtered Result (>5 attempts)**
-
-```md
-![Ref 3.2 - Filtered Result](screenshots/ref3_filtered.png)
-```
-
-**3. Alert Configuration Page**
+**2. Alert Configuration Page**
 
 ```md
 ![Ref 3.3 - Alert Setup](screenshots/ref3_alert.png)
 ```
-
-#### ⚠️ Alert Setup:
-
-* Condition: more than 5 attempts
-* Time: within 10 minutes
 
 📝 *Ref 3: Detection of brute-force attack patterns and alert setup*
 
@@ -228,29 +217,6 @@ Create a dashboard combining:
 
 ---
 
-## 🚨 Alerts
-
-Configured alerts for:
-
-* Brute-force attempts (>5 attempts in 10 minutes)
-
-#### 📸 Screenshots:
-
-**1. Alert Rule Configuration**
-
-```md
-![Ref 7.1 - Alert Config](screenshots/ref7_config.png)
-```
-
-**2. Alert Triggered Result (Optional)**
-
-```md
-![Ref 7.2 - Alert Triggered](screenshots/ref7_triggered.png)
-```
-
-📝 *Ref 7: Automated alert for brute-force detection*
-
----
 
 ## 🧾 Conclusion
 
