@@ -46,10 +46,8 @@ index=ssh_logs | stats count by event_type
 #### 📸 Screenshots:
 
 **1. Upload Data Screen**
-
-```md
 screenshots/ref1_upload.png
-```
+
 
 **2. Sourcetype Configuration (_json)**
 
